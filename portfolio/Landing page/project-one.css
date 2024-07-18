@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    translate: (-50%,-50%);
+    background-image: url(a.jpg);
+    box-shadow:0 0 250px rgba(211, 211, 211, 0.693) ;
+    background-size: cover;
+}
+.Logo,.nav1{
+    width: 33%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+.nav2{
+    display: flex;
+}
+#SignUp, #LogIn{
+    background: none;
+    border: none;
+    font-weight: bolder;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+ #SignUp:hover{
+    transform: scale(1.2);
+    z-index: 1.2;
+}
+#LogIn:hover{
+    transform: scale(1.2);
+    z-index: 1.2;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: (-50%,-50%);
+    font-size: xx-large;
+}
+.web{
+    background-color:chocolate;
+}
+
+.body img{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+footer{
+    margin-top: 0px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#slogan{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    translate: (-25%,-50%);
+    font-family: "Playwrite ES Deco", cursive;
+}
+#n1,#n2,#n3{
+    transition: 0.2s;
+}
+#n1:hover{
+    transform: scale(1.2);
+    z-index: 1.2;
+}
+#n2:hover{
+    transform: scale(1.2);
+    z-index: 1.2;
+}
+#n3:hover{
+    transform: scale(1.2);
+    z-index: 1.2;
+}
+#f1,#f2,#f3,.info,.about{
+    font-size: larger;
+    color :white;
+}
+form{
+    color: white;
+    padding: 5px;
+    border: solid black 2px;
+    border-radius: 25px 0px 0px 25px;
+}
+.copy{
+    color: white;
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+#fun{
+    margin-left: 15px;
+    color: black;
+    font-family: "Playwrite ES Deco", cursive;
+    font-size: smaller;
+}
+h7{
+    color: white;
+}
+.c1{
+    position: relative;
+    right: 25px;
+}
